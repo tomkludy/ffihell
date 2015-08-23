@@ -1,0 +1,12 @@
+name:                ffihell
+version:             0.1.0.0
+author:              Tom Kludy
+maintainer:          tom.kludy@gmail.com
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Foo
+  build-depends:       base >=4.8 && <4.9, text
+  default-language:    Haskell2010
+  c-sources:           init.c
