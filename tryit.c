@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "Foo_stub.h"
 
-#include "HsFFI.h"
-
 HsBool mylib_init(void);
 void mylib_end(void);
 
